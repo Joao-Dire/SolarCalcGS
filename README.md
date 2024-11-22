@@ -1,4 +1,4 @@
-# Calculadora de Custos de Energia Solar Residencial
+# Calculadora de Custos de Energia Solar Residencial EcoCalc
 
 ## Descrição
 Uma aplicação web intuitiva que permite aos usuários estimarem o custo e os benefícios de instalar um sistema de energia solar residencial. A ferramenta simula o retorno do investimento, a economia na conta de luz e o impacto positivo no meio ambiente. 
