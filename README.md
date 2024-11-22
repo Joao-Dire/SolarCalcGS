@@ -17,25 +17,3 @@ Uma aplicação web intuitiva que permite aos usuários estimarem o custo e os b
     * Python para cálculos e IA
     * [Outras bibliotecas ou ferramentas relevantes]
 
-## Como Contribuir
-1. **Fork** este repositório.
-2. **Clone** o seu fork.
-3. **Crie uma nova branch** para sua feature ou correção de bug.
-4. **Faça as suas alterações** e commit.
-5. **Envie um pull request** para o branch principal deste repositório.
-
-## Autores
-* [Seu nome] - Desenvolvedor Full-Stack
-* [Outros colaboradores, se houver]
-
-## Licença
-[Especifique a licença utilizada, ex: MIT, GPL]
-
-## Demonstração (opcional)
-[Link para um vídeo ou imagem demonstrando a aplicação]
-
-## Próximos Passos
-* [Liste as próximas features ou melhorias planejadas]
-
-## Agradecimentos
-[Agradeça a quem contribuiu para o projeto]
