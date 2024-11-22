@@ -45,6 +45,7 @@ const Home: React.FC = () => {
           </p>
         </div>
 
+        {/* Botão para acessar a Calculadora */}
         <a href="/calculator" className="bg-green-500 text-white px-6 py-4 rounded-md text-xl hover:bg-green-600 mt-6">
           Acesse a Calculadora
         </a>
@@ -94,7 +95,7 @@ const Home: React.FC = () => {
           Conheça a equipe responsável por este projeto, nossos objetivos e os integrantes.
         </p>
         <a
-          href="/About"
+          href="/about"
           className="bg-green-500 text-white px-6 py-3 rounded-md text-lg hover:bg-green-600"
         >
           Veja os Integrantes

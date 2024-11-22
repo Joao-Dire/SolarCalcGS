@@ -8,15 +8,11 @@ const Header: React.FC = () => {
           </h1>
   
           <nav className="flex space-x-8">
-            <a href="#section-home" className="text-white text-lg hover:text-[#FFCC00] transition duration-300">
-              Home
-            </a>
-            <a href="#section-quem-somos" className="text-white text-lg hover:text-[#FFCC00] transition duration-300">
-              Quem Somos
-            </a>
-            <a href="#section-calculadora" className="text-white text-lg hover:text-[#FFCC00] transition duration-300">
-              Calculadora
-            </a>
+            <a href="#section-home" className="text-white text-lg hover:text-[#FFCC00] transition duration-300">Home</a>
+            <a href="#section-quem-somos" className="text-white text-lg hover:text-[#FFCC00] transition duration-300">Quem Somos</a>
+            <a href="#section-calculadora" className="text-white text-lg hover:text-[#FFCC00] transition duration-300">Calculadora</a>
+            {/* Link para a página "Sobre Nós" */}
+            <a href="/about" className="text-white text-lg hover:text-[#FFCC00] transition duration-300">Sobre Nós</a>
           </nav>
         </div>
       </header>
