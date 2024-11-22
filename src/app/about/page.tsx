@@ -4,24 +4,24 @@ export default function About() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#4F7942] p-8">
       <section className="bg-[#e2e8eb] rounded-lg shadow-lg p-16 w-full max-w-6xl min-h-[85vh] mx-auto">
-        <h1 className="text-6xl text-[#6BBF59] font-bold text-center mb-16">Sobre Nós</h1>
+        <h1 className="text-4xl text-[#6BBF59] font-bold text-center mb-12">Sobre Nós</h1>
 
         <div className="flex flex-col lg:flex-row items-center lg:items-start mb-16">
           <div className="lg:w-1/2 text-center lg:text-left lg:pr-12 mb-12 lg:mb-0">
-            <h2 className="text-[#333333] text-5xl font-semibold mb-8">Quem Somos:</h2>
-            <p className="mb-6 leading-relaxed text-2xl text-[#333333]">
+            <h2 className="text-[#333333] text-3xl font-semibold mb-6">Quem Somos:</h2>
+            <p className="mb-4 leading-relaxed text-base text-[#333333]">
               Somos estudantes comprometidos em criar soluções sustentáveis. Nosso objetivo é fornecer ferramentas acessíveis para capacitar a transição para fontes de energia renovável.
             </p>
-            <p className="mb-6 leading-relaxed text-2xl text-[#333333]">
+            <p className="mb-4 leading-relaxed text-base text-[#333333]">
               Com foco em energia solar, buscamos simplificar o processo de implementação, destacando benefícios financeiros e ambientais.
             </p>
-            <p className="leading-relaxed text-2xl text-[#333333]">
+            <p className="leading-relaxed text-base text-[#333333]">
               Nossa equipe está localizada em São Paulo, unindo inovação e sustentabilidade para criar um futuro mais verde.
             </p>
             <br />
-            <p className="leading-relaxed text-2xl text-[#333333]">
-              LinkedIn:
-              <ul className="list-disc list-inside mt-4 space-y-2 text-lg text-blue-600">
+            <div>
+              <p className="leading-relaxed text-lg text-[#333333] font-semibold">LinkedIn:</p>
+              <ul className="list-disc list-inside mt-4 space-y-2 text-sm text-blue-600">
                 <li>
                   <a 
                     href="https://www.linkedin.com/in/matheus-h-reis" 
@@ -53,11 +53,11 @@ export default function About() {
                   </a>
                 </li>
               </ul>
-            </p>
+            </div>
             <br />
-            <p className="leading-relaxed text-2xl text-[#333333]">
-              GitHub:
-              <ul className="list-disc list-inside mt-4 space-y-2 text-lg text-gray-800">
+            <div>
+              <p className="leading-relaxed text-lg text-[#333333] font-semibold">GitHub:</p>
+              <ul className="list-disc list-inside mt-4 space-y-2 text-sm text-gray-800">
                 <li>
                   <a 
                     href="https://github.com/MatheusReis48" 
@@ -89,35 +89,35 @@ export default function About() {
                   </a>
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
 
           {/* Imagens dos integrantes */}
           <div className="lg:w-1/2 flex flex-col items-center gap-8">
-            <div className="relative">
+            <div className="relative w-40 h-40">
               <Image
                 src="/Luan.png" 
                 alt="Luan"
-                width={192}   
-                height={192}  
+                width={160}   
+                height={160}  
                 className="object-cover shadow-md"
               />
             </div>
-            <div className="relative">
+            <div className="relative w-40 h-40">
               <Image
                 src="/joao.jpg" 
                 alt="João"
-                width={192}   
-                height={192}  
+                width={160}   
+                height={160}  
                 className="object-cover shadow-md"
               />
             </div>
-            <div className="relative">
+            <div className="relative w-40 h-40">
               <Image
                 src="/Matheus.jpeg" 
                 alt="Matheus"
-                width={192}   
-                height={192}  
+                width={160}   
+                height={160}  
                 className="object-cover shadow-md"
               />
             </div>
@@ -125,8 +125,8 @@ export default function About() {
         </div>
 
         <div className="text-center mt-16">
-          <h2 className="text-[#333333] text-5xl font-semibold mb-8">Nossa Visão</h2>
-          <p className="mb-8 leading-relaxed text-2xl text-[#333333]">
+          <h2 className="text-[#333333] text-3xl font-semibold mb-6">Nossa Visão</h2>
+          <p className="mb-8 leading-relaxed text-base text-[#333333]">
             Acreditamos em um futuro mais sustentável e acessível. Nosso objetivo é fornecer soluções inovadoras e práticas para promover a energia solar em larga escala, garantindo uma transição energética justa e eficiente.
           </p>
         </div>
