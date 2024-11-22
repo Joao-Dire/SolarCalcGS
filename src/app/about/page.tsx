@@ -19,15 +19,9 @@ export default function About() {
               Nossa equipe está localizada em São Paulo, unindo inovação e sustentabilidade para criar um futuro mais verde.
             </p>
             <br />
-<<<<<<< HEAD
             <div>
               <p className="leading-relaxed text-lg text-[#333333] font-semibold">LinkedIn:</p>
               <ul className="list-disc list-inside mt-4 space-y-2 text-sm text-blue-600">
-=======
-            <p className="leading-relaxed text-2xl text-[#333333]">
-              LinkedIn:
-              <ul className="list-disc list-inside mt-4 space-y-2 text-lg text-blue-600">
->>>>>>> df3a78fc9b8e75411ecdf5f73618941974dabe1c
                 <li>
                   <a 
                     href="https://www.linkedin.com/in/matheus-h-reis" 
@@ -59,19 +53,11 @@ export default function About() {
                   </a>
                 </li>
               </ul>
-<<<<<<< HEAD
             </div>
             <br />
             <div>
               <p className="leading-relaxed text-lg text-[#333333] font-semibold">GitHub:</p>
               <ul className="list-disc list-inside mt-4 space-y-2 text-sm text-gray-800">
-=======
-            </p>
-            <br />
-            <p className="leading-relaxed text-2xl text-[#333333]">
-              GitHub:
-              <ul className="list-disc list-inside mt-4 space-y-2 text-lg text-gray-800">
->>>>>>> df3a78fc9b8e75411ecdf5f73618941974dabe1c
                 <li>
                   <a 
                     href="https://github.com/MatheusReis48" 
@@ -103,16 +89,11 @@ export default function About() {
                   </a>
                 </li>
               </ul>
-<<<<<<< HEAD
             </div>
-=======
-            </p>
->>>>>>> df3a78fc9b8e75411ecdf5f73618941974dabe1c
           </div>
 
           {/* Imagens dos integrantes */}
           <div className="lg:w-1/2 flex flex-col items-center gap-8">
-<<<<<<< HEAD
             <div className="relative w-40 h-40">
               <Image
                 src="/Luan.png" 
@@ -137,32 +118,6 @@ export default function About() {
                 alt="Matheus"
                 width={160}   
                 height={160}  
-=======
-            <div className="relative">
-              <Image
-                src="/Luan.png" 
-                alt="Luan"
-                width={192}   
-                height={192}  
-                className="object-cover shadow-md"
-              />
-            </div>
-            <div className="relative">
-              <Image
-                src="/joao.jpg" 
-                alt="João"
-                width={192}   
-                height={192}  
-                className="object-cover shadow-md"
-              />
-            </div>
-            <div className="relative">
-              <Image
-                src="/Matheus.jpeg" 
-                alt="Matheus"
-                width={192}   
-                height={192}  
->>>>>>> df3a78fc9b8e75411ecdf5f73618941974dabe1c
                 className="object-cover shadow-md"
               />
             </div>
