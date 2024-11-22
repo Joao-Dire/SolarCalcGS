@@ -1,22 +1,25 @@
-// app/calculadora/page.tsx
-
-"use client"; // Esta diretiva informa ao Next.js que o componente precisa ser renderizado no lado do cliente
+"use client"; 
 
 import { useState, useEffect } from "react";
 import axios from "axios";
-import Link from "next/link";
+
+interface Calculo {
+  id: number;
+  economia: number;
+  retorno: number;
+}
 
 export default function Calculator() {
   const [consumoMensal, setConsumoMensal] = useState<string>("");
   const [custoInstalacao, setCustoInstalacao] = useState<string>("");
   const [economia, setEconomia] = useState<number | null>(null);
   const [retorno, setRetorno] = useState<number | null>(null);
-  const [calculos, setCalculos] = useState<any[]>([]);
+  const [calculos, setCalculos] = useState<Calculo[]>([]); 
   const [showMenu, setShowMenu] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
 
   const calcular = () => {
-    const economiaMensal = parseFloat(consumoMensal) * 0.7; 
+    const economiaMensal = parseFloat(consumoMensal) * 0.7;
     const tempoRetorno = parseFloat(custoInstalacao) / economiaMensal;
 
     setEconomia(economiaMensal);
@@ -42,7 +45,7 @@ export default function Calculator() {
   const listar = async () => {
     try {
       const response = await axios.get(`http://localhost:8080/calculos`);
-      setCalculos(response.data);
+      setCalculos(response.data);  
       setError("");
     } catch (err) {
       console.error(err);
@@ -68,7 +71,7 @@ export default function Calculator() {
   }, []);
 
   const toggleMenu = () => {
-    setShowMenu(!showMenu); // Alterna o estado do menu
+    setShowMenu(!showMenu); 
   };
 
   const handleConsumoMensalChange = (e: React.ChangeEvent<HTMLInputElement>) => {

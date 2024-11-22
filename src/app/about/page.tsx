@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function About() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#4F7942] p-8">
@@ -19,27 +21,36 @@ export default function About() {
           </div>
 
           <div className="lg:w-1/2 flex flex-wrap gap-12 justify-center">
+            {/* Imagem de João */}
             <div className="relative w-60 h-60">
-              <img
-                src="/Joao.jpg"  
+              <Image
+                src="/Joao.jpg" 
                 alt="João"
-                className="w-full h-full object-cover rounded-full shadow-md"
+                width={160}   
+                height={160}  
+                className="object-cover rounded-full shadow-md"
               />
               <div className="absolute inset-0 bg-gradient-to-t via-transparent to-transparent opacity-40 rounded-full"></div>
             </div>
+            {/* Imagem de Luan */}
             <div className="relative w-60 h-60">
-              <img
-                src="/Luan.png"  
+              <Image
+                src="/Luan.jpg" 
                 alt="Luan"
-                className="w-full h-full object-cover rounded-full shadow-md"
+                width={160}   
+                height={160}  
+                className="object-cover rounded-full shadow-md"
               />
               <div className="absolute inset-0 bg-gradient-to-t via-transparent to-transparent opacity-40 rounded-full"></div>
             </div>
+            {/* Imagem de Matheus */}
             <div className="relative w-60 h-60">
-              <img
-                src="/Matheus.jpeg"  
+              <Image
+                src="/Matheus.jpg" 
                 alt="Matheus"
-                className="w-full h-full object-cover rounded-full shadow-md"
+                width={160}   
+                height={160}  
+                className="object-cover rounded-full shadow-md"
               />
               <div className="absolute inset-0 bg-gradient-to-t via-transparent to-transparent opacity-40 rounded-full"></div>
             </div>
