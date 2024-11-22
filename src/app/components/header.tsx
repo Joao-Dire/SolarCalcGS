@@ -1,23 +1,42 @@
-// app/components/Header.tsx
-const Header: React.FC = () => {
-    return (
-      <header className="bg-[#4A9F47] py-6">
-        <div className="max-w-screen-xl mx-auto px-4 flex items-center justify-between">
-          <h1 className="text-3xl font-bold text-white">
-            <a href="/">EcoCalc</a>
-          </h1>
-  
-          <nav className="flex space-x-8">
-            <a href="#section-home" className="text-white text-lg hover:text-[#FFCC00] transition duration-300">Home</a>
-            <a href="#section-quem-somos" className="text-white text-lg hover:text-[#FFCC00] transition duration-300">Quem Somos</a>
-            <a href="#section-calculadora" className="text-white text-lg hover:text-[#FFCC00] transition duration-300">Calculadora</a>
-            {/* Link para a página "Sobre Nós" */}
-            <a href="/about" className="text-white text-lg hover:text-[#FFCC00] transition duration-300">Sobre Nós</a>
-          </nav>
-        </div>
-      </header>
-    );
-  };
-  
-  export default Header;
-  
+// app/layout.tsx (ou onde seu cabeçalho está sendo configurado)
+
+import Link from 'next/link';
+
+const Header = () => {
+  return (
+    <header className="bg-[#4F7942] py-4 shadow-md">
+      <div className="container mx-auto flex justify-between items-center px-4">
+        <Link href="/" className="text-2xl font-semibold text-white">
+          EcoCalc
+        </Link>
+        <nav>
+          <ul className="flex space-x-8">
+            <li>
+              <Link href="/" className="text-lg text-white hover:text-[#6BBF59]">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/calculator"
+                className="text-lg text-white hover:text-[#6BBF59]"
+              >
+                Calculadora
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                className="text-lg text-white hover:text-[#6BBF59]"
+              >
+                Sobre Nós
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
