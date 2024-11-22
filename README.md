@@ -10,10 +10,9 @@ Uma aplicação web intuitiva que permite aos usuários estimarem o custo e os b
 
 ## Tecnologias Utilizadas
 * **Backend:**
-    * Linguagem: Python
-    * Framework: [Especifique o framework utilizado, ex: Flask, Django]
-    * Banco de dados: [Especifique o banco de dados, ex: PostgreSQL, MongoDB]
+    * Linguagem: Python, Java.
+    * Banco de dados: OracleDB
 * **Outras tecnologias:**
-    * Python para cálculos e IA
+    * Python para cálculos e IA.
     * [Outras bibliotecas ou ferramentas relevantes]
 
