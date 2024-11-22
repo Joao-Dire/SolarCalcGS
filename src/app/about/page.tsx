@@ -18,41 +18,108 @@ export default function About() {
             <p className="leading-relaxed text-2xl text-[#333333]">
               Nossa equipe está localizada em São Paulo, unindo inovação e sustentabilidade para criar um futuro mais verde.
             </p>
+            <br />
+            <p className="leading-relaxed text-2xl text-[#333333]">
+              LinkedIn:
+              <ul className="list-disc list-inside mt-4 space-y-2 text-lg text-blue-600">
+                <li>
+                  <a 
+                    href="https://www.linkedin.com/in/matheus-h-reis" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    Matheus H. Reis
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://www.linkedin.com/in/joão-vitor-di-re-a6a610292/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    João Vitor Di Re
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://www.linkedin.com/in/luan-dantas-33b26323b/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    Luan Dantas
+                  </a>
+                </li>
+              </ul>
+            </p>
+            <br />
+            <p className="leading-relaxed text-2xl text-[#333333]">
+              GitHub:
+              <ul className="list-disc list-inside mt-4 space-y-2 text-lg text-gray-800">
+                <li>
+                  <a 
+                    href="https://github.com/MatheusReis48" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    MatheusReis48
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://github.com/Joao-Dire" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    Joao-Dire
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://github.com/lds2125" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    lds2125
+                  </a>
+                </li>
+              </ul>
+            </p>
           </div>
 
-          <div className="lg:w-1/2 flex flex-wrap gap-12 justify-center">
-            {/* Imagem de João */}
-            <div className="relative w-60 h-60">
+          {/* Imagens dos integrantes */}
+          <div className="lg:w-1/2 flex flex-col items-center gap-8">
+            <div className="relative">
               <Image
-                src="/Joao.jpg" 
-                alt="João"
-                width={160}   
-                height={160}  
-                className="object-cover rounded-full shadow-md"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t via-transparent to-transparent opacity-40 rounded-full"></div>
-            </div>
-            {/* Imagem de Luan */}
-            <div className="relative w-60 h-60">
-              <Image
-                src="/Luan.jpg" 
+                src="/Luan.png" 
                 alt="Luan"
-                width={160}   
-                height={160}  
-                className="object-cover rounded-full shadow-md"
+                width={192}   
+                height={192}  
+                className="object-cover shadow-md"
               />
-              <div className="absolute inset-0 bg-gradient-to-t via-transparent to-transparent opacity-40 rounded-full"></div>
             </div>
-            {/* Imagem de Matheus */}
-            <div className="relative w-60 h-60">
+            <div className="relative">
               <Image
-                src="/Matheus.jpg" 
-                alt="Matheus"
-                width={160}   
-                height={160}  
-                className="object-cover rounded-full shadow-md"
+                src="/joao.jpg" 
+                alt="João"
+                width={192}   
+                height={192}  
+                className="object-cover shadow-md"
               />
-              <div className="absolute inset-0 bg-gradient-to-t via-transparent to-transparent opacity-40 rounded-full"></div>
+            </div>
+            <div className="relative">
+              <Image
+                src="/Matheus.jpeg" 
+                alt="Matheus"
+                width={192}   
+                height={192}  
+                className="object-cover shadow-md"
+              />
             </div>
           </div>
         </div>

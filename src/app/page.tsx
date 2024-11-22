@@ -7,7 +7,7 @@ const Home: React.FC = () => {
       {/* Seção 1: Texto Inicial */}
       <section 
         id="section-home" 
-        className="flex-grow h-screen bg-[#4F7942] flex items-center justify-end p-8" 
+        className="flex-grow min-h-screen bg-[#4F7942] flex items-center justify-end p-8" 
         style={{ 
           backgroundImage: `url(/mao-com-planta.jpg)`, 
           backgroundSize: 'cover', 
@@ -29,7 +29,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Seção 2: Simulação */}
-      <section id="section-calculadora" className="flex-grow h-screen bg-white flex flex-col justify-center items-center p-8">
+      <section id="section-calculadora" className="flex-grow min-h-screen bg-white flex flex-col justify-center items-center p-8">
         <div className="mb-12 w-full max-w-2xl text-center">
           <h2 className="text-4xl font-semibold text-[#1ea13099]">Simule sua Economia!</h2> 
           <p className="mt-4 text-3xl text-gray-600">
@@ -54,7 +54,7 @@ const Home: React.FC = () => {
 
       {/* Seção 3: Benefícios da Energia Solar */}
       <section 
-        className="flex-grow h-screen flex flex-col justify-center items-center p-8 relative" 
+        className="flex-grow min-h-screen flex flex-col justify-center items-center p-8 relative" 
         style={{ 
           backgroundImage: `url(/energiaSolar.jpg)`, 
           backgroundSize: 'cover', 
@@ -90,7 +90,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Seção 4: Sobre Nós */}
-      <section id="section-quem-somos" className="flex-grow h-screen bg-[#4F7942] flex flex-col justify-center items-center p-8">
+      <section id="section-quem-somos" className="flex-grow min-h-screen bg-[#4F7942] flex flex-col justify-center items-center p-8">
         <h2 className="text-5xl font-semibold text-[#cdffe299] mb-6">Sobre Nós</h2>
         <p className="text-2xl text-white text-center max-w-md mb-8">
           Conheça a equipe responsável por este projeto, nossos objetivos e os integrantes.
