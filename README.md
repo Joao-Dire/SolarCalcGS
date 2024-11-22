@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Calculadora de Custos de Energia Solar Residencial
 
-## Getting Started
+## Descrição
+Uma aplicação web intuitiva que permite aos usuários estimarem o custo e os benefícios de instalar um sistema de energia solar residencial. A ferramenta simula o retorno do investimento, a economia na conta de luz e o impacto positivo no meio ambiente. 
 
-First, run the development server:
+## Funcionalidades Principais
+* **Simulador de Investimento:** Calcula o custo inicial, a economia projetada ao longo do tempo e o período de retorno do investimento com base nos dados fornecidos pelo usuário.
+* **Análise Ambiental:** Quantifica a redução das emissões de CO₂ e demonstra o compromisso com a sustentabilidade.
+* **Interface Intuitiva:** Design amigável com gráficos e visualizações que facilitam a compreensão dos resultados.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias Utilizadas
+* **Backend:**
+    * Linguagem: Python
+    * Framework: [Especifique o framework utilizado, ex: Flask, Django]
+    * Banco de dados: [Especifique o banco de dados, ex: PostgreSQL, MongoDB]
+* **Outras tecnologias:**
+    * Python para cálculos e IA
+    * [Outras bibliotecas ou ferramentas relevantes]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como Contribuir
+1. **Fork** este repositório.
+2. **Clone** o seu fork.
+3. **Crie uma nova branch** para sua feature ou correção de bug.
+4. **Faça as suas alterações** e commit.
+5. **Envie um pull request** para o branch principal deste repositório.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Autores
+* [Seu nome] - Desenvolvedor Full-Stack
+* [Outros colaboradores, se houver]
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Licença
+[Especifique a licença utilizada, ex: MIT, GPL]
 
-## Learn More
+## Demonstração (opcional)
+[Link para um vídeo ou imagem demonstrando a aplicação]
 
-To learn more about Next.js, take a look at the following resources:
+## Próximos Passos
+* [Liste as próximas features ou melhorias planejadas]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Agradecimentos
+[Agradeça a quem contribuiu para o projeto]
