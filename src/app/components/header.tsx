@@ -1,5 +1,3 @@
-// app/layout.tsx (ou onde seu cabeçalho está sendo configurado)
-
 import Link from 'next/link';
 
 const Header = () => {

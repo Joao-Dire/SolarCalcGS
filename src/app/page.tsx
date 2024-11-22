@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Home: React.FC = () => {
   return (
@@ -8,14 +9,14 @@ const Home: React.FC = () => {
         id="section-home" 
         className="flex-grow h-screen bg-[#4F7942] flex items-center justify-end p-8" 
         style={{ 
-          backgroundImage: `url(/mao-com-planta.jpg)`, // Caminho correto
+          backgroundImage: `url(/mao-com-planta.jpg)`, 
           backgroundSize: 'cover', 
           backgroundPosition: 'right' 
         }}
       >
         <div className="text-right w-full max-w-5xl">
           <img 
-            src="/EcoCALC.png" // Caminho para a imagem dentro de 'public/'
+            src="/EcoCALC.png" 
             alt="EcoCalc" 
             className="flex float-right" 
           />
@@ -46,16 +47,16 @@ const Home: React.FC = () => {
         </div>
 
         {/* Botão para acessar a Calculadora */}
-        <a href="/calculator" className="bg-green-500 text-white px-6 py-4 rounded-md text-xl hover:bg-green-600 mt-6">
+        <Link href="/calculator" className="bg-green-500 text-white px-6 py-4 rounded-md text-xl hover:bg-green-600 mt-6">
           Acesse a Calculadora
-        </a>
+        </Link>
       </section>
 
       {/* Seção 3: Benefícios da Energia Solar */}
       <section 
         className="flex-grow h-screen flex flex-col justify-center items-center p-8 relative" 
         style={{ 
-          backgroundImage: `url(/energiaSolar.jpg)`, // Caminho correto
+          backgroundImage: `url(/energiaSolar.jpg)`, 
           backgroundSize: 'cover', 
           backgroundPosition: 'center' 
         }}
@@ -94,12 +95,12 @@ const Home: React.FC = () => {
         <p className="text-2xl text-white text-center max-w-md mb-8">
           Conheça a equipe responsável por este projeto, nossos objetivos e os integrantes.
         </p>
-        <a
+        <Link
           href="/about"
           className="bg-green-500 text-white px-6 py-3 rounded-md text-lg hover:bg-green-600"
         >
           Veja os Integrantes
-        </a>
+        </Link>
       </section>
     </div>
   );
